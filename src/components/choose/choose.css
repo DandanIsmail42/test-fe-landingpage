@@ -1,0 +1,131 @@
+.choose{
+    width: 100%;
+    height: 405px;
+    position: relative;
+    top: 35px;
+    padding: 30px 50px 30px 50px;
+    background-color: #2F241F;
+}
+.choose-head-text{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 77px;
+    letter-spacing: -0.01em;
+    color: #E5F0B6;
+}
+.choose-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.01em;
+
+color: #E5F0B6;
+}
+.features{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.features1{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-right: 30px;
+}
+.features2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.features3{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 20px;
+}
+h3{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #E5F0B6;
+}
+.frame-icon{
+    width: 37px;
+    height: 37px;
+    border-radius: 8px;
+    background-color: #E5F0B680;
+    color: #F4F4F4;
+    text-align: center;
+    line-height: 36px;
+}
+@media screen and (max-width: 476px){
+   .choose{
+    margin-top: 450px;
+    height: 1008px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .choose-head-text{
+    margin-top: 50px;
+   }
+   .choose-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.01em;
+   }
+   .features{
+    display: grid;
+    grid-template-columns: 2fr;
+    margin-top: 40px;
+   }
+   .features1{
+    margin-bottom: 20px;
+    margin-left: 20px;
+   }
+   .features2{
+    margin-bottom: 20px;
+   }
+   .features3{
+    margin-bottom: 20px;
+   }
+  }
+@media screen and (max-width: 768px){
+   .choose{
+    height: 908px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .choose-head-text{
+    margin-top: 50px;
+   }
+   .choose-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.01em;
+   }
+   .features{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+   }
+   .features1{
+    margin-bottom: 20px;
+    margin-left: 20px;
+   }
+   .features2{
+    margin-bottom: 20px;
+   }
+   .features3{
+    margin-bottom: 20px;
+   }
+  }

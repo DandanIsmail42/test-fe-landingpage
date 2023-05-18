@@ -1,0 +1,33 @@
+.footer{
+    position: relative;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    height: 300px;
+    padding-top: 25px;
+}
+
+.footer1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.p-footer{
+    font-size: 13px;
+}
+
+.other-footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 476px){
+    .footer{
+        top: 32cm;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

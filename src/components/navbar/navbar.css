@@ -1,0 +1,71 @@
+.logo-nav{
+    color: #553B33;
+    font-size: 30px;
+}
+.nav-brand{
+    color: #2F241F;
+
+}
+.navbar{
+    background-color: #ffff;
+    box-shadow: 2px 2px 1px lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.signup{
+    height: 48px;
+    width: 117px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px;
+    background-color: #E5F0B6;
+    border-color: #E5F0B6;
+    margin-right: 10px;
+}
+.frame-shopping{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    height: 48px;
+    width: 50px;
+    left: 0px;
+    background: #553B33;
+    border-radius: 8px
+}
+.shopping-icon{
+    color: #E5F1B5;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.text-nav{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-right: 20px;
+}
+.text-nav:hover{
+    transform: rotate(-50deg);
+    color: #291b09;
+    transition: 800ms;
+}
+.s{
+    color: red;
+}
+
+
+@media screen and (max-width: 476px){
+    .navbar{
+       display: flex;
+    }
+    .signup{
+        margin-bottom: 4px;
+    }
+  }
