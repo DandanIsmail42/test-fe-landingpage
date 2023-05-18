@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./promo.css"
 import axios from 'axios'
+
 const Promo = () => {
   const [datas, setDatas] = useState([])
 
@@ -8,7 +9,7 @@ const Promo = () => {
         getProductsLimit()
       }, [])
     const getProductsLimit = async() => {
-        const response = await axios.get('https://fakestoreapi.com/products?limit=3')
+        const response = await axios.get(`${process.env.REACT_APP_BASEURL}?limit=3`)
         setDatas(response.data)
     }
   return (

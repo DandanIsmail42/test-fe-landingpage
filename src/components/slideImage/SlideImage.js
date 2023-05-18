@@ -19,7 +19,7 @@ const SlideImage = () => {
         getProducts()
       }, [])
     const getProducts = async() => {
-        const response = await axios.get('https://fakestoreapi.com/products')
+        const response = await axios.get(`${process.env.REACT_APP_BASEURL}`)
         setDatas(response.data)
     }
    
